@@ -11,6 +11,9 @@ import Memo2child from '../component/Memo2child'
 import UseMemo from '../component/UseMemo'
 import UseCallback from '../component/UseCallback'
 import Debouncing from '../component/Debouncing'
+import Zustand from '../component/Zustand'
+import P_Question from '../component/P_Question'
+import UseRef from '../component/UseRef'
 
 const AppRoute = () => {
   return (
@@ -27,6 +30,9 @@ const AppRoute = () => {
         <Route path='/usememo' element={<UseMemo />}></Route>
         <Route path='/useCallback' element={<UseCallback />}></Route>
         <Route path='/debouncing' element={<Debouncing />}></Route>
+        <Route path='/zustand' element={<Zustand />}></Route>
+        <Route path='/question' element={<P_Question />}></Route>
+        <Route path='/useRef' element={<UseRef />}></Route>
 
       </Routes>
     </BrowserRouter>

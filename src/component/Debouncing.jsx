@@ -21,44 +21,6 @@ const Debouncing = () => {
     }, [input])
 
 
-    // console.log(foo());
-
-    // var foo = function () {
-    //     return "fnc exp1"
-    // }
-    // function foo() {
-    //     return "fnc dec2"
-    // }
-
-    // for (var i = 0; i < 3; i++) {
-
-    //     setTimeout(function () {
-
-    //         console.log(i);
-    //     }, 100);
-
-    // }
-
-
-    // let data = 7
-    // while (data >= 0) {
-    //     if (data <= 5) {
-    //         data--;
-    //         continue;
-    //     }
-    //     console.log(data);
-    //     data--;
-    // }
-
-    // let i = 5;
-    // while (true) {
-    //     console.log(i);
-    //     i += 5;
-    //     if (i > 30) {
-    //         break;
-    //     }
-    // }
-
     return (
         <>
             <div style={{
