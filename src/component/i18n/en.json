@@ -1,0 +1,25 @@
+{
+  "name": "Himanshu",
+  "nav": {
+    "home": "Home",
+    "postJob": "Post a Job",
+    "dashboard": "Dashboard",
+    "chat": "Chat"
+  },
+  "home": {
+    "greeting": "Hello, {{name}}",
+    "searchPlaceholder": "Search category or location",
+    "categories": "Work categories",
+    "nearbyWorkers": "Workers near you"
+  },
+  "job": {
+    "apply": "Apply",
+    "postJob": "Post Job",
+    "budget": "Budget",
+    "status": {
+      "open": "Open",
+      "progress": "In Progress",
+      "done": "Completed"
+    }
+  }
+}

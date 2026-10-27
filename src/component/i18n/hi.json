@@ -1,0 +1,25 @@
+{
+  "name": "हिमांशु",
+  "nav": {
+    "home": "होम",
+    "postJob": "काम डालें",
+    "dashboard": "डैशबोर्ड",
+    "chat": "बातचीत"
+  },
+  "home": {
+    "greeting": "नमस्ते, {{name}}",
+    "searchPlaceholder": "काम या जगह खोजें",
+    "categories": "काम की श्रेणी",
+    "nearbyWorkers": "आपके पास के कारीगर"
+  },
+  "job": {
+    "apply": "आवेदन करें",
+    "postJob": "काम पोस्ट करें",
+    "budget": "बजट",
+    "status": {
+      "open": "खुला",
+      "progress": "चालू है",
+      "done": "पूरा हुआ"
+    }
+  }
+}

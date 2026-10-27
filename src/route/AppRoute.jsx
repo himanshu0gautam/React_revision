@@ -14,6 +14,8 @@ import Debouncing from '../component/Debouncing'
 import Zustand from '../component/Zustand'
 import P_Question from '../component/P_Question'
 import UseRef from '../component/UseRef'
+import Create404page from '../component/Create404page'
+import LanguageToggle from '../component/i18n/LanguageToggle'
 
 const AppRoute = () => {
   return (
@@ -33,6 +35,8 @@ const AppRoute = () => {
         <Route path='/zustand' element={<Zustand />}></Route>
         <Route path='/question' element={<P_Question />}></Route>
         <Route path='/useRef' element={<UseRef />}></Route>
+        <Route path='/language' element={<LanguageToggle />}></Route>
+        <Route path='*' element={<Create404page />}></Route>
 
       </Routes>
     </BrowserRouter>
